@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body id="body">
+        <center>
+        <h1 class="heading">HAND GESTURE WEB APP</h1>
+        <span>&#9995;</span>
+        <span>&#128075;</span>
+        <span>&#128400;</span>
+        <span>&#128406;</span>
+        <span>&#129306;</span>
+        <br><br><br>
+        <h4 class="heading">Camera Section-</h4>
+        <br>
+        <hr class="hr">
+        <div id="camera"><br><br><br><br></div>
+        <hr class="hr">
+        <br>
+        <button id="take_snapshot" class="btn btn-danger" onclick="take_snapshot()"> Capture Image </button>
+        <br>
+        <div id="answer_name"></div>
+        <div id="answer_emoji"></div>
+        <br>
+        <hr class="hr">
+        <div id="captured_image"><br><br><br><br></div>
+        <hr class="hr">
+        <br><br>
+        <button id="take"onclick="idendifyImage()">Idendify Image</button>
+        </center>
+
+    </body>
+</html>
